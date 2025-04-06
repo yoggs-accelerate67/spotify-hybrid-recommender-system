@@ -1,0 +1,7 @@
+[core]
+    remote = remote
+    autostage = true
+['remote "myremote"']
+    url = s3://spotify-hybrid-recsys-remote
+['remote "remote"']
+    url = s3://spotify-hybrid-recommendersys-remote
